@@ -1,8 +1,8 @@
-# Contributing to Smartsheet Live Data Connector User Guide
+# Contributing to 10,000ft API User Guide
 
 ## Purpose
 
-This guide explains how to contribute to the Smartsheet Live Data Connector User Guide. The actual Smartsheet Live Data Connector documentation can be viewed [here](http://smartsheet-platform.github.io/odbc-docs). 
+This guide explains how to contribute to the 10,000ft User Guide. The actual 10,000ft API documentation can be viewed [here CHANGETHIS](link-to-published-content). 
 
 ## Submitting Changes
 The project should be tested locally before putting up a pull request to ensure that the changes are working as expected and original functionality is not affected. 
@@ -19,7 +19,7 @@ Contributors do not have access to push directly to the `master` branch, so all 
 If you would like to publish changes to the documentation files once your pull request has been approved, see [Publishing](PUBLISHING.md).
 
 ## License
-
+--> CHANGETHIS: UPDATE THIS SECTION AS NEEDED OR DELETE
 Copyright 2015 Smartsheet, Inc.
 
 Licensed under the Apache License, Version 2.0 (the

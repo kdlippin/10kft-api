@@ -1,15 +1,15 @@
-# Smartsheet Live Data Connector User Guide
+# 10,000ft API User Guide
 
-Documentation source files for the [Smartsheet Live Data Connector](http://www.smartsheet.com/apps/smartsheet-odbc).
+Documentation source files for the [10,000ft API CHANGETHIS](link-to-published-page-location).
 
 ## Purpose
 
-This repository contains the source files used to generate the documentation for the Smartsheet Live Data Connector.
-The actual Smartsheet Live Data Connector documentation can be viewed [here](http://smartsheet-platform.github.io/odbc-docs). 
+This repository contains the source files used to generate the documentation for the 10,000ft API.
+The actual 10,000ft API documentation can be viewed [here CHANGETHIS](link-github-pages-location). 
 
 ## Submitting Feedback
 
-To report documentation bugs or to request documentation enhancements, simply submit an issue [here](https://github.com/smartsheet-platform/odbc-docs/issues). 
+To report documentation bugs or to request documentation enhancements, simply submit an issue [here CHANGETHIS](https://github.com/10000ft-location/issues). 
 And, of course, feel free to [submit pull requests](https://help.github.com/articles/using-pull-requests) with bug fixes or changes.
 
 ## Running the Docs Locally
@@ -18,7 +18,7 @@ Follow the steps below if you'd like to run the documentation locally on your ma
 
 ### Prerequisites
 
- - **Linux or OS X** — Windows may work, but is unsupported.
+ - **Linux or OS X** — Windows also seems to work
  - **Ruby, version 1.9.3 or newer**
  - **Bundler** — If Ruby is already installed, but the `bundle` command doesn't work, just run `gem install bundler` in a terminal.
 
@@ -42,7 +42,7 @@ If you would like to contribute a change to the documentation files, see [Contri
 If you would like to publish changes to the documentation files, see [Publishing](PUBLISHING.md).
 
 ## License
-
+	CHANGETHIS: UPDATE THIS SECTION AS NEEDED OR DELETE
 	Copyright 2015 Smartsheet, Inc.
 
 	Licensed under the Apache License, Version 2.0 (the

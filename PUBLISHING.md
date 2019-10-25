@@ -1,11 +1,11 @@
-# Publishing Smartsheet Live Data Connector User Guide
+# Publishing 10,000ft API User Guide
 
 ## Purpose
 
-This document outlines the process for publishing the Smartsheet Live Data Connector User Guide onto Github Pages. The actual Smartsheet Live Data Connector documentation can be viewed [here TODO change](http://smartsheet-platform.github.io/odbc-docs). 
+This document outlines the process for publishing the 10,000ft API User Guide onto Github Pages. The actual 10,000ft API documentation can be viewed [here CHANGETHIS](http://smartsheet-platform.github.io/odbc-docs). 
 
 ## Why git version tags?
-Git tags are a nice way to keep track of the versions of the documentation. The version of the documentation should match the version of the Smartsheet Live Data Connector that it supports. Example tag name might be `v1.0.1`. This can be added with the following command `git tag v1.0.1`.
+Git tags are a nice way to keep track of the versions of the documentation. The version of the documentation should match the version of the 10,000ft API that it supports. Example tag name might be `v1.0.1`. This can be added with the following command `git tag v1.0.1`.
 
 ## Understanding the publish command
 The `rake publish` command bundles all of the resources in the `source/` directory to create static assets in a local directory called `bundle/`. These static assets are then pushed into the `gh-pages` branch. Github pages hosts the contents of the `gh-pages` for public viewing. Only Admins and Owners of the repository have push access into the `gh-pages` repo, so `rake publish` command will fail for anyone else.
@@ -16,29 +16,16 @@ The `rake publish` command bundles all of the resources in the `source/` directo
 1. Make sure that the `master` branch has the version of the code you would like to publish. 
 2. Tag the branch with a git tag using the command `git tag <TAG_NAME>`.
 3. Push the tag to git using the command `git push --tags`.
-3. KDL NOTE: may need to run `bundle exec middleman build`
 4. Run the command `rake publish`.
-   * You might encounter some deprecated warning messages in the terminal when running `rake publish`, but that is expected and can be ignored.  
-5. In the [Releases](https://github.com/smartsheet-platform/odbc-docs/releases) tab of the repository, draft and publish a new release using the tag you created in step 2. 
-
-ERROR OUTPUT:
-
-cd C:/git/smartsheet/10kft-api-kl/build
-git init
-Initialized empty Git repository in C:/git/smartsheet/10kft-api-kl/build/.git/
-git remote add origin https://github.com/kdlippin/10kft-api.git
-git fetch origin gh-pages
-fatal: couldn't find remote ref gh-pages
-rake aborted!
-
-RESOLUTION:
-Ran `bundle exec middleman build` first then ran `rake publish`
+   * You might encounter some deprecated warning messages in the terminal when running `rake publish`, but that is expected and can be ignored.
+   * If you run to other errors, try running `bundle exec middleman build` and retrying.
+5. In the [Releases CHANGETHIS](https://github.com/smartsheet-platform/odbc-docs/releases) tab of the repository, draft and publish a new release using the tag you created in step 2. 
 
 ## Contributing
 If you would like to contribute a change to the documentation files, see [Contributing](CONTRIBUTING.md).
 
 ## License
-
+CHANGETHIS: UPDATE THIS SECTION AS NEEDED OR DELETE
 Copyright 2015 Smartsheet, Inc.
 
 Licensed under the Apache License, Version 2.0 (the

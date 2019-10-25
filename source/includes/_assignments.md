@@ -2,6 +2,7 @@
 
 ##### Endpoint: `/api/v1/users/<user_id>/assignments`
 ##### Endpoint: `/api/v1/projects/<project_id>/assignments`
+CHANGETHIS: ALL THE LINKS IN THIS SECTION NEED FIXED
 
 Assignments connect a [User](users.md) to a [Project](projects.md) or a [Phase](phases.md) (part of a project) or a [LeaveType](leave-types.md).
 
