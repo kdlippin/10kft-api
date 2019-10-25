@@ -48,7 +48,7 @@ Similarly, in the create and delete examples below, you can call the assignments
 
 Typical parameters: `starts_at`, `ends_at`, `allocation_mode (percent, hours_per_day, fixed)`, `percent`, `hours_per_day`, `fixed_hours`
 
-```
+```shell
 POST /api/v1/users/<user_id>/assignments
 
  curl -d 'leave_id=<leave_id>&starts_at=<YEAR-MO-DAY>&ends_at=<YEAR-MO-DAY>'  \
